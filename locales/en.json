@@ -1,0 +1,86 @@
+{
+  "start_message": "🎵 <b>Welcome to Music Bot!</b>\n\nI'm your personal music assistant. I can:\n• Play music from YouTube\n• Manage playback controls\n• Organize your music queue\n• Support multiple languages\n\n<b>Commands:</b>\n/play [query] - Play music\n/pause - Pause current track\n/resume - Resume playback\n/skip - Skip current track\n/stop - Stop and leave voice chat\n/queue - Show music queue\n/help - Show this help\n/language - Switch language\n\nUse /play with a YouTube URL or search query to get started!",
+  
+  "help_message": "🎵 <b>Music Bot Help</b>\n\n<b>Basic Commands:</b>\n• /play [URL/query] - Play music from YouTube\n• /pause - Pause current track\n• /resume - Resume playback\n• /skip - Skip to next track\n• /stop - Stop playback and leave voice chat\n• /queue - Show music queue with pagination\n• /language - Switch between English and Arabic\n• /help - Show this help message\n\n<b>Features:</b>\n✓ High-quality audio streaming\n✓ Smart queue management\n✓ Progress tracking\n✓ Auto-resume after interruptions\n✓ Inline controls with callback buttons\n✓ Multi-language support\n\n<b>Tips:</b>\n• Use inline buttons for quick controls\n• Queue supports pagination for long lists\n• Bot will automatically join voice chats\n• Assistant will be promoted for voice chat management\n\n<i>Made with ❤️ for music lovers</i>",
+  
+  "language_select": "🌐 <b>Select Language</b>\n\nChoose your preferred language for the bot interface:",
+  "language_current": "Current language: {lang}",
+  "language_updated": "✅ Language updated to {lang}",
+  
+  "now_playing": "🎵 <b>Now Playing</b>\n\n{title}\n👤 <b>Artist:</b> {artist}\n⏱️ <b>Duration:</b> {duration}\n👥 <b>Chat:</b> {chat_name}\n\n{progress_bar}\n{position} / {duration}",
+  
+  "queue_empty": "📃 <b>Queue is empty</b>\n\nUse /play to add some music!",
+  "queue_header": "📃 <b>Music Queue</b>\n\n<b>Current:</b> {current}\n<b>Total tracks:</b> {total} | <b>Duration:</b> {total_duration}",
+  
+  "added_to_queue": "✅ <b>Added to queue:</b>\n{title}\n👤 {artist}\n⏱️ {duration}",
+  "downloading": "⬇️ <b>Downloading...</b>\n{title}",
+  "download_failed": "❌ <b>Download failed</b>\n{error}",
+  "no_audio_stream": "❌ <b>No audio stream available</b>\nThis video doesn't contain audio.",
+  
+  "playback_controls": {
+    "pause": "⏸️ Pause",
+    "resume": "▶️ Play",
+    "skip": "⏭️ Skip",
+    "stop": "⏹️ Stop",
+    "queue": "📃 Queue",
+    "settings": "⚙️ Settings"
+  },
+  
+  "queue_controls": {
+    "previous": "◀️ Previous",
+    "refresh": "🔄 Refresh",
+    "next": "Next ▶️",
+    "back_to_player": "🔙 Back to Player"
+  },
+  
+  "settings_controls": {
+    "volume_up": "🔊 Vol+",
+    "volume_down": "🔉 Vol-",
+    "loop_track": "🔁 Loop Track",
+    "shuffle": "🔀 Shuffle",
+    "back_to_player": "🔙 Back to Player"
+  },
+  
+  "error_messages": {
+    "not_in_voice_chat": "❌ <b>I'm not in a voice chat</b>\nStart a voice chat first!",
+    "no_active_playback": "❌ <b>No active playback</b>\nUse /play to start playing music.",
+    "admin_required": "❌ <b>Admin privileges required</b\nOnly administrators can use this command.",
+    "chat_admin_required": "❌ <b>Bot needs admin rights</b>\nI need administrator privileges to manage voice chats.",
+    "user_not_participant": "❌ <b>Assistant not in chat</b>\nThe music assistant is not in this chat.",
+    "private_chat": "❌ <b>Voice chat unavailable</b>\nMusic bot only works in group chats with voice chats.",
+    "invalid_url": "❌ <b>Invalid URL</b>\nPlease provide a valid YouTube URL or search query.",
+    "rate_limited": "⚠️ <b>Rate limited</b>\nPlease wait a moment before using this command again.",
+    "general_error": "❌ <b>An error occurred</b>\n{error}"
+  },
+  
+  "status_messages": {
+    "joined_voice_chat": "🎵 <b>Joined voice chat</b>",
+    "left_voice_chat": "👋 <b>Left voice chat</b>",
+    "playback_paused": "⏸️ <b>Playback paused</b>",
+    "playback_resumed": "▶️ <b>Playback resumed</b>",
+    "track_skipped": "⏭️ <b>Track skipped</b>",
+    "queue_cleared": "🗑️ <b>Queue cleared</b>",
+    "bot_restarted": "🤖 <b>Bot restarted</b>\nResuming playback...",
+    "assistant_invited": "👋 <b>Assistant invited</b>\nWaiting for assistant to join...",
+    "assistant_promoted": "👑 <b>Assistant promoted</b>\nCan now manage voice chats!",
+    "download_started": "⬇️ <b>Download started</b>",
+    "invalid_search": "❌ <b>Search failed</b>\nNo results found for: {query}"
+  },
+  
+  "progress_bar": {
+    "filled": "●",
+    "empty": "○",
+    "length": 20
+  },
+  
+  "time_formats": {
+    "short": "{minutes}:{seconds:02d}",
+    "long": "{hours}:{minutes:02d}:{seconds:02d}",
+    "unknown": "?:??"
+  },
+  
+  "admin_only": "⚠️ <b>Admin only</b>\nThis action requires administrator privileges.",
+  "processing": "⏳ <b>Processing...</b>",
+  "invalid_input": "❌ <b>Invalid input</b>\nPlease use the format: /{command} {parameters}",
+  "no_permission": "🚫 <b>No permission</b>\nYou don't have permission to use this command."
+}
