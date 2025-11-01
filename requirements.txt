@@ -1,6 +1,6 @@
 # Core Telegram/Async Libraries
 pyrogram==2.0.106
-pytgcalls==2.2.8
+pytgcalls==2.1.0
 tgcrypto==1.2.5
 
 # YouTube & Media Processing  
