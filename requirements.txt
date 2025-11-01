@@ -23,3 +23,8 @@ tinydb==4.8.0
 rich==13.9.4
 validators==0.34.0
 humanize==4.11.0
+
+# Utilities
+rich==13.9.4
+validators==0.34.0
+humanize==4.11.0
