@@ -1,0 +1,25 @@
+# Core Telegram/Async Libraries
+pyrogram==2.0.106
+pytgcalls==2.2.8
+tgcrypto==1.2.5
+
+# YouTube & Media Processing  
+yt-dlp==2024.12.13
+ffmpeg-python==0.2.0
+
+# Async & HTTP
+aiohttp==3.10.11
+aiofiles==24.1.0
+
+# Environment & Configuration
+python-dotenv==1.0.1
+pydantic==2.10.3
+
+# Database & Storage
+motor==3.6.0
+tinydb==4.8.0
+
+# Utilities
+rich==13.9.4
+validators==0.34.0
+humanize==4.11.0
