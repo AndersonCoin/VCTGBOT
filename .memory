@@ -1,0 +1,13 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "Build Complete Telegram Music Bot MVP v2.1",
+        "details": "Develop a production-ready Telegram Music Bot with Pyrogram + PyTgCalls featuring voice chat streaming, rich inline keyboards, multi-language support (EN/AR with RTL), auto-resume functionality, and modular architecture. Include all required components: bot initialization, player logic, queue management, localization system, assistant management, and health check server.",
+        "status": "completed",
+        "priority": "high"
+      }
+    }
+  }
+}
